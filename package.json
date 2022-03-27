@@ -13,6 +13,7 @@
     "cors": "^2.8.5",
     "exppress": "^0.0.1-security",
     "express": "^4.17.3",
-    "mysql": "^2.18.1"
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3"
   }
 }
