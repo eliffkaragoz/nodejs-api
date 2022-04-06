@@ -31,7 +31,7 @@ db.connect((err)=>{
 
 // REST API CURD
 app.get('/api',(req,res)=>{
-    res.send('Api working');
+    res.send('Elif Karagöz');
 });
 
 app.get('/api/create-table', (req,res)=>{
