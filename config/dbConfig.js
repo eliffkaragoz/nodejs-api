@@ -1,3 +1,13 @@
+// module.exports = {
+//   HOST:'localhost',
+//   USER:'root',
+//   PASSWORD:  'password',
+//   DB:  'omulingo',
+//   dialect: "mysql",
+
+// };
+
+
 module.exports = {
   HOST: process.env.MYSQL_HOST,
   USER:process.env.MYSQL_USER,
@@ -6,14 +16,5 @@ module.exports = {
   dialect: "mysql",
 
 };
-// //mysql database connection 
-// var db = mysql.createConnection({
-//   host: 'localhost',
-//   user:'root',
-//   password: 'password',
-//   database: 'omulingo'
-// });
-
-
 
   
